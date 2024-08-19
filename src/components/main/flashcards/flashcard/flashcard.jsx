@@ -1,13 +1,13 @@
 import styles from "./flashcard.module.css";
 import { useState } from "react";
-import handleFlashcard from "./flashcards"
 
-export default function Flashcard() {
+export default function Flashcard({ emoji, text }) {
     return (
         <>
-            <h3 className={`${toggleButton ? styles.active : ""}`} onClick={handleFlashcards}>Flashcard 1 </h3>
-            <h3>Flashcard 2</h3>
-            <h3>Flashcard 3</h3>
+            <div className={styles.flashcard_container}>
+                <h1>{emoji}</h1>
+                <h3>{text}</h3>
+            </div>
         </>
     )
 }
