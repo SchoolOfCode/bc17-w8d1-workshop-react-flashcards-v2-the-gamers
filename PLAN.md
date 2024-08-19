@@ -3,7 +3,7 @@ Plan
 1. Set up folder in terminal - install Vite 
 
 2. HTML / CSS  
-2a. Set up header 
+2a. Set up header ✔️
 2b. Footer
 2c. flashcards 
 2d. form 
